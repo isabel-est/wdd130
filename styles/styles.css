@@ -1,5 +1,10 @@
+:root {
+    --head-bakground-color: darkblue;
+    --head-border: black;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--head-bakground-color);
     padding: 10px;
 }
 nav a {
@@ -14,7 +19,7 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--head-border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -22,9 +27,9 @@ p {padding: 0;}
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); 
+    border: 1px solid var(--head-border); 
     padding: 1rem;
-    background-color: #eee;
+    background-color: var(--head-bakground-color;
     color: #333;
     text-align: center;
 }
