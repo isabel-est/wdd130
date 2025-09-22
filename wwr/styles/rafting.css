@@ -6,7 +6,7 @@
 :root {
     --primary-color: #eee; 
     --secondary-color:#869174; 
-    --accent1-color:#000;           
+    --accent1-color:#000000;           
     --accent2-color:#056923;     
     --heading-font: "Times New Roman", "Arial",serif;
     --body-font: "Helvetic","Arial",sans-serif;
@@ -14,11 +14,11 @@
  
 header{
     background:var(--primary-color);
-    color: var (--accent1-color) ;
+    color: var(--accent1-color);
 }
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color:var(--accent1-color);
 }
 header, main, footer {
     width: 840px;
@@ -26,7 +26,7 @@ header, main, footer {
 }
 h1,h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 nav, p, section,article {
     margin: 16px ;
