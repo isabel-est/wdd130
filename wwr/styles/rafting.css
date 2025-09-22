@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color: #eee; 
+    --primary-color:#eee; 
     --secondary-color:#869174; 
     --accent1-color:#000000;           
     --accent2-color:#056923;     
