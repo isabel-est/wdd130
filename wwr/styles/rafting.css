@@ -6,15 +6,47 @@
 :root {
     --primary-color:#eee; 
     --secondary-color:#869174; 
-    --accent1-color:#000000;           
+    --accent1-color:navy;           
     --accent2-color:#056923;     
     --heading-font: "Times New Roman", "Arial",serif;
     --body-font: "Helvetic","Arial",sans-serif;
 }
  
-header{
+header {
     background:var(--primary-color);
     color: var(--accent1-color);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+#logo {
+    font-size: 2rem;
+    font-family: var(--body-font);
+}
+.navigating {
+    display: flex;
+    list-style: none;
+   
+}
+
+.navigating li {
+    flex: 1 1 auto;
+}
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 body {
     font-family: var(--body-font);
@@ -34,6 +66,7 @@ nav, p, section,article {
 }
 .socialmedia a {
     text-decoration: none;
+     
 }
 .hero {
     position: relative;
@@ -57,7 +90,7 @@ h1 {
 .hero article {
   position:absolute;
   bottom: 15px;
-  background-color:var(--secondary-color) ;
+  background-color:var(--primary-color) ;
   font-size: small;
   width: 80%;
   
@@ -72,3 +105,26 @@ h2 {
     background-color: var(--accent2-color) ;
     color: var(--primary-color);
 }
+.hist {
+    display: flex;
+    flex-direction: row;
+}
+.travels {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 1;
+    align-items: center;
+    
+}
+.travels img {
+    width: 150px;
+    height: auto;
+       
+}
+.fin {
+    display: grid;
+     grid-template-columns: 70% 1fr;
+     grid-template-rows: 1;
+     align-items: center;
+}
+     
