@@ -121,10 +121,10 @@ h2 {
     height: auto;
        
 }
-.fin {
+.finfoot {
     display: grid;
      grid-template-columns: 70% 1fr;
-     grid-template-rows: 1;
+     grid-template-rows: 1fr;
      align-items: center;
 }
      
