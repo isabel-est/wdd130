@@ -41,7 +41,7 @@ legend {
     font-size: 1.3em;
 }
 label, input, button, select, textarea {
-    font-family: Roboto, Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 label {
     text-align: right;
