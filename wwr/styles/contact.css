@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color:#eee; 
+    --secondary-color:#869174; 
+    --accent1-color:navy;           
+    --accent2-color:#056923;     
+    --heading-font: "Times New Roman", "Arial",serif;
+    --body-font: "Helvetic","Arial",sans-serif;
+}
+ 
+header {
+    background:var(--primary-color);
+    color: var(--accent1-color);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+#logo {
+    font-size: 2rem;
+    font-family: var(--body-font);
+}
+
+.navigating {
+    display: flex;
+    list-style: none;
+   
+}
+
+.navigating li {
+    flex: 1 1 auto;
+}
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+body {
+    font-family: var(--body-font);
+    color:var(--accent1-color);
+}
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+nav, p, section,article {
+    margin: 16px ;
+    padding: 8px;
+}
+.socialmedia a {
+    text-decoration: none;
+     
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+   
+    width: 100% ;
+    padding: 16px ;    
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent2-color) ;
+    color: var(--primary-color);
+}
+.box {
+   margin: 1rem;
+   border: 1px solid rgb(0 0 0 / 10%);
+   padding: 1 rem; 
+   text-align: left;
+}
+
+.infor {
+  text-align: center;
+  background-color:var(--primary-color) ;
+  
+}
+.profile {
+    margin-left: 80px;
+     display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-row: 1;
+    align-items: center;
+    
+}
+.profile img {
+    width: 150px;
+    height: auto;
+   
+}
+.map iframe {
+   width: 300px; 
+   height: 300px;
+   
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows:4 ;
+    place-items: center;
+   
+}
+
+.finfoot {
+    display: grid;
+     grid-template-columns: 70% 1fr;
+     grid-template-rows: 1fr;
+     align-items: center;
+}
+     
