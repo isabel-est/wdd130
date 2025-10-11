@@ -114,7 +114,15 @@ h1, h2 {
     place-items: center;
    
 }
-
+button{
+    background-color:  navy;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5rem;
+    border: 5px solid rgb(0 0 0 /10%);
+    box-shadow: 0 0 15px #eee;
+}
 .finfoot {
     display: grid;
      grid-template-columns: 70% 1fr;
